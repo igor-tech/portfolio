@@ -1,0 +1,27 @@
+.worksBlock {
+    background-color: #b57fc7;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.worksContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px solid;
+}
+
+.works {
+    border: 1px solid;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.title {
+    background: #7c7c7c;
+}

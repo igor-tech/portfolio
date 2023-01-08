@@ -1,0 +1,38 @@
+.mainBlock {
+    background-color: #8be08c;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    background: #7c7c7c;
+}
+
+.social {
+    margin: 50px 0 50px 0;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    height: 50px;
+    gap: 40px;
+}
+.social div {
+    height: 50px;
+    width: 50px;
+    background: #7c7c7c;
+}
+
+.info {
+
+}
+
+@media screen and (max-width: 400px) {
+    .social {
+        gap: 10px;
+    }
+}

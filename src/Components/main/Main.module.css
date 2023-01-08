@@ -1,0 +1,15 @@
+.mainBlock {
+    min-height: 100vh;
+    background-color: lightcoral;
+    padding-top: 50px;
+}
+
+.text {
+    background-color: whitesmoke;
+}
+
+.photo {
+    width: 400px;
+    height: 500px;
+    background-color: whitesmoke;
+}
